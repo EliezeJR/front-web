@@ -1,0 +1,30 @@
+/* styles.css */
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar a:hover {
+    color: #000;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
