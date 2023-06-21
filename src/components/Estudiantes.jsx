@@ -36,7 +36,7 @@ const Estudiantes = () => {
             <tr key={item.id}>
               <td>{item.id}</td>
               <td>{item.nombre}</td>
-              <td>{item.generos}</td>
+              <td>{item.generos.name}</td>
             </tr>
           ))}
         </tbody>
